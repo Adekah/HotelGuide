@@ -1,0 +1,17 @@
+C:\Users\MyAsus\source\repos\HotelGuide\HotelGuide.Entity\obj\Debug\netcoreapp2.2\HotelGuide.Entity.csproj.CoreCompileInputs.cache
+C:\Users\MyAsus\source\repos\HotelGuide\HotelGuide.Entity\obj\Debug\netcoreapp2.2\HotelGuide.Entity.AssemblyInfoInputs.cache
+C:\Users\MyAsus\source\repos\HotelGuide\HotelGuide.Entity\obj\Debug\netcoreapp2.2\HotelGuide.Entity.AssemblyInfo.cs
+C:\Users\MyAsus\source\repos\HotelGuide\HotelGuide.Entity\bin\Debug\netcoreapp2.2\HotelGuide.Entity.deps.json
+C:\Users\MyAsus\source\repos\HotelGuide\HotelGuide.Entity\bin\Debug\netcoreapp2.2\HotelGuide.Entity.dll
+C:\Users\MyAsus\source\repos\HotelGuide\HotelGuide.Entity\bin\Debug\netcoreapp2.2\HotelGuide.Entity.pdb
+C:\Users\MyAsus\source\repos\HotelGuide\HotelGuide.Entity\obj\Debug\netcoreapp2.2\HotelGuide.Entity.dll
+C:\Users\MyAsus\source\repos\HotelGuide\HotelGuide.Entity\obj\Debug\netcoreapp2.2\HotelGuide.Entity.pdb
+C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Entity\bin\Debug\netcoreapp2.2\HotelGuide.Entity.deps.json
+C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Entity\bin\Debug\netcoreapp2.2\HotelGuide.Entity.dll
+C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Entity\bin\Debug\netcoreapp2.2\HotelGuide.Entity.pdb
+C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Entity\obj\Debug\netcoreapp2.2\HotelGuide.Entity.csprojAssemblyReference.cache
+C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Entity\obj\Debug\netcoreapp2.2\HotelGuide.Entity.csproj.CoreCompileInputs.cache
+C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Entity\obj\Debug\netcoreapp2.2\HotelGuide.Entity.AssemblyInfoInputs.cache
+C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Entity\obj\Debug\netcoreapp2.2\HotelGuide.Entity.AssemblyInfo.cs
+C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Entity\obj\Debug\netcoreapp2.2\HotelGuide.Entity.dll
+C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Entity\obj\Debug\netcoreapp2.2\HotelGuide.Entity.pdb

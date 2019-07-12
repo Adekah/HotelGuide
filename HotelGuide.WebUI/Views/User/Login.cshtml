@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<environment include="Development">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/css/site.css" rel="stylesheet" />
+</environment>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body class="login-body">
+    <form asp-action="Login" asp-controller="User">
+        <div class="Login">
+            <img class="login-image" src="~/Images/cb454f29744b4b97a8004b699eaba74b.png" />
+
+            <input class=" login-input" name="username" type="text" placeholder="Kullanıcı Adı" value="ugur" />
+
+            <input class=" login-input" name="password" type="password" placeholder="Parola" value="123"/><br/>
+           @if (ViewBag.errormessage != null)
+            {
+            <span style="color:red;font-weight:bold">
+                <i class="fa fa-exclamation-triangle"></i>@ViewBag.errormessage
+            </span>
+            }
+            <div>
+                <button type="submit" style="margin-top: 15px;" class="btn btn-primary">Oturum Aç</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

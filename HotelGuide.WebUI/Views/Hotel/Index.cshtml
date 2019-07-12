@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Hotel Page";
+
+}
+@model IEnumerable<HotelGuide.Entity.Model.HotelsViewModel>
+
+
+<form asp-action="Index">
+    <div class="row Searchrow">
+        <input type="text" class="form-control col-md-6" name="SearchString" placeholder="Otel Ara..." />
+        <input type="submit" class="btn btn-danger" style="width: 150px; margin-left: 50px;" value="Ara" />
+    </div>
+
+    <div>
+        @if (ViewBag.SearchedHotels != null)
+        {
+
+            @if (ViewBag.SearchedHotels.Count == 0)
+            {
+                <h5 class="IndexSearchH5">Maalesef aramanızla Eşleşen Otel Kaydımız bulunamadı...</h5><hr/>
+            }
+            else
+            {
+                <h2 class="indexSearchH2">Bulunan Oteller</h2>
+                <div class="container HotelmainSearch">
+
+                    @foreach (var hotel in ViewBag.SearchedHotels)
+                    {
+                        <div class="card col-md-4 hotelmain">
+                            <img class="card-img-top" src="~/Images/@hotel.ImagePath" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">@hotel.Name</h4>
+                                <p class="card-text">@hotel.Description</p>
+                                <b> OtelPuanı:</b>
+                                @for (int i = 0; i < hotel.ScoreValue; i++)
+                                {
+                                    <span class="fa fa-star checked"></span>
+
+                                }
+
+                                <a href="~/Hotel/HotelDetail/@hotel.Id" id="HotelDetailButton" class="btn btn-primary">Otel Detayına Git...</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+            }
+        }
+
+    </div>
+
+</form>
+<h1 class="IndexSearchH1">KAYITLI OTELLER</h1>
+<div class="container HotelContainer">
+
+
+    @foreach (var hotel in ViewBag.AllHotels)
+    {
+        <div class="card col-md-4 hotelmain">
+            <img class="card-img-top" src="~/Images/@hotel.ImagePath" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">@hotel.Name</h4>
+                <p class="card-text">@hotel.Description</p>
+                <b> OtelPuanı:</b>
+                @for (int i = 0; i < hotel.ScoreValue; i++)
+                {
+                    <span class="fa fa-star checked"></span>
+
+                }
+
+                <a href="~/Hotel/HotelDetail/@hotel.Id" id="HotelDetailButton" class="btn btn-primary">Otel Detayına Git...</a>
+            </div>
+        </div>
+
+    }
+
+
+
+</div>

@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewData["Title"] = "HotelDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model HotelGuide.Entity.Model.HotelsViewModel;
+
+
+<div class="panel panel-default">
+
+
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 style="text-align: center; margin-top: 75px;">OTEL DETAY</h1>
+                Otel Adı : @Model.Name <br />
+
+                Otel Detayı:@Model.Description <br />
+
+                Otel Ortalama Paunı :
+                @for (int i = 0; i < Model.ScoreValue; i++)
+                {
+                    <span class="fa fa-star checked"></span>
+
+                }
+                <br />
+
+                Otel Adresi:@Model.AddressText <br />
+
+                @foreach (var hotelContact in ViewBag.HotelContact)
+                {
+                    if (hotelContact.HotelContactTypeId == 1)
+                    {
+                        <p>Otel No : @hotelContact.ContactValue</p>
+
+                    }
+                    else if (hotelContact.HotelContactTypeId == 2)
+                    {
+                        <p>Fax No : @hotelContact.ContactValue </p>
+                    }
+                    else if (hotelContact.HotelContactTypeId == 3)
+                    {
+                        <p>Rezervasyon No: @hotelContact.ContactValue </p>
+                    }
+                    else
+                    {
+                        <p>Mail Adresi : @hotelContact.ContactValue </p>
+                    }
+                }
+                <img class="card-img-top" src="~/Images/@Model.ImagePath" alt="Card image">
+                <h3 style="text-align: center; margin-bottom: 25px; margin-top: 25px;">Otel Yorumları</h3>
+                @foreach (var hotelcomment in ViewBag.HotelComment)
+                {
+                    if (hotelcomment == null)
+                    {
+                        <p>Bu otel için Henüz Yorum yapılmamıştır...</p>
+                    }
+                    else
+                    {
+                        <div>
+                            <p>Misafir Yorumu :  @hotelcomment.Comment </p>
+                            <p>
+                                Yorum Puanı :     @for (int i = 0; i < @hotelcomment.Score; i++)
+                                {
+                                    <span class="fa fa-star checked"></span>
+
+                                } <hr/>
+                            </p>
+                        </div>
+                    }
+                }
+             
+                <div>
+                    <a type="button" asp-controller="User" asp-action="Login" class="btn btn-primary">Yorum Yap</a>
+                </div>
+   
+
+
+
+            </div>
+            <div class="col-md-6">
+                <h1 style="text-align: center; margin-top: 75px;">REZERVASYON İŞLEMLERİ</h1>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+
+
+
