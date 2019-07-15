@@ -22,3 +22,15 @@ C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.DataAccess\obj\Debug\netcoreapp2.2
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.DataAccess\obj\Debug\netcoreapp2.2\HotelGuide.DataAccess.csproj.CopyComplete
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.DataAccess\obj\Debug\netcoreapp2.2\HotelGuide.DataAccess.dll
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.DataAccess\obj\Debug\netcoreapp2.2\HotelGuide.DataAccess.pdb
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.DataAccess\bin\Debug\netcoreapp2.2\HotelGuide.DataAccess.deps.json
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.DataAccess\bin\Debug\netcoreapp2.2\HotelGuide.DataAccess.dll
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.DataAccess\bin\Debug\netcoreapp2.2\HotelGuide.DataAccess.pdb
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.DataAccess\bin\Debug\netcoreapp2.2\HotelGuide.Entity.dll
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.DataAccess\bin\Debug\netcoreapp2.2\HotelGuide.Entity.pdb
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.DataAccess\obj\Debug\netcoreapp2.2\HotelGuide.DataAccess.csprojAssemblyReference.cache
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.DataAccess\obj\Debug\netcoreapp2.2\HotelGuide.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.DataAccess\obj\Debug\netcoreapp2.2\HotelGuide.DataAccess.AssemblyInfoInputs.cache
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.DataAccess\obj\Debug\netcoreapp2.2\HotelGuide.DataAccess.AssemblyInfo.cs
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.DataAccess\obj\Debug\netcoreapp2.2\HotelGuide.DataAccess.csproj.CopyComplete
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.DataAccess\obj\Debug\netcoreapp2.2\HotelGuide.DataAccess.dll
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.DataAccess\obj\Debug\netcoreapp2.2\HotelGuide.DataAccess.pdb

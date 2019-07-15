@@ -13098,11 +13098,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.WebUI\\HotelGuide.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.WebUI\\HotelGuide.WebUI.csproj",
       "projectName": "HotelGuide.WebUI",
-      "projectPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.WebUI\\HotelGuide.WebUI.csproj",
+      "projectPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.WebUI\\HotelGuide.WebUI.csproj",
       "packagesPath": "C:\\Users\\MyAsus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.WebUI\\obj\\",
+      "outputPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13121,11 +13121,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Business\\HotelGuide.Business.csproj": {
-              "projectPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Business\\HotelGuide.Business.csproj"
+            "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Business\\HotelGuide.Business.csproj": {
+              "projectPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Business\\HotelGuide.Business.csproj"
             },
-            "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj"
+            "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj"
             }
           }
         }

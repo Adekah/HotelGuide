@@ -18,11 +18,8 @@ namespace HotelGuide.WebUI.Controllers
 
         public IActionResult Login()
         {
-          
-            if (HttpContext.Session.GetString("UserName") != null)
-            {
-                return RedirectToAction("Index", "Hotel");
-            }
+
+            HttpContext.Session.SetString("UserSession", "UserSessionUserSessionUserSessionUserSession");
             return View();
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj": {}
+    "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj": {
+    "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj",
         "projectName": "HotelGuide.DataAccess",
-        "projectPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj",
+        "projectPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj",
         "packagesPath": "C:\\Users\\MyAsus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj": {
-                "projectPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj"
+              "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj": {
+                "projectPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj": {
+    "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj",
         "projectName": "HotelGuide.Entity",
-        "projectPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj",
+        "projectPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj",
         "packagesPath": "C:\\Users\\MyAsus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Entity\\obj\\",
+        "outputPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

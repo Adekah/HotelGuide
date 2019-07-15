@@ -3531,11 +3531,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj",
       "projectName": "HotelGuide.Entity",
-      "projectPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj",
+      "projectPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj",
       "packagesPath": "C:\\Users\\MyAsus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Entity\\obj\\",
+      "outputPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

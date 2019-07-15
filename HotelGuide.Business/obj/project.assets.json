@@ -3568,11 +3568,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Business\\HotelGuide.Business.csproj",
+      "projectUniqueName": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Business\\HotelGuide.Business.csproj",
       "projectName": "HotelGuide.Business",
-      "projectPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Business\\HotelGuide.Business.csproj",
+      "projectPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Business\\HotelGuide.Business.csproj",
       "packagesPath": "C:\\Users\\MyAsus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Business\\obj\\",
+      "outputPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3591,11 +3591,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj"
+            "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.DataAccess\\HotelGuide.DataAccess.csproj"
             },
-            "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj": {
-              "projectPath": "C:\\Users\\MyAsus\\Desktop\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj"
+            "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj": {
+              "projectPath": "C:\\Users\\MyAsus\\Documents\\GitHub\\HotelGuide\\HotelGuide.Entity\\HotelGuide.Entity.csproj"
             }
           }
         }

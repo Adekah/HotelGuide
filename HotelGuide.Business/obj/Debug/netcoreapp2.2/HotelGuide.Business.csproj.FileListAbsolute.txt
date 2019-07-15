@@ -26,3 +26,17 @@ C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Business\obj\Debug\netcoreapp2.2\H
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Business\obj\Debug\netcoreapp2.2\HotelGuide.Business.csproj.CopyComplete
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Business\obj\Debug\netcoreapp2.2\HotelGuide.Business.dll
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.Business\obj\Debug\netcoreapp2.2\HotelGuide.Business.pdb
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\bin\Debug\netcoreapp2.2\HotelGuide.Business.deps.json
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\bin\Debug\netcoreapp2.2\HotelGuide.Business.dll
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\bin\Debug\netcoreapp2.2\HotelGuide.Business.pdb
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\bin\Debug\netcoreapp2.2\HotelGuide.DataAccess.dll
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\bin\Debug\netcoreapp2.2\HotelGuide.Entity.dll
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\bin\Debug\netcoreapp2.2\HotelGuide.DataAccess.pdb
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\bin\Debug\netcoreapp2.2\HotelGuide.Entity.pdb
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\obj\Debug\netcoreapp2.2\HotelGuide.Business.csprojAssemblyReference.cache
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\obj\Debug\netcoreapp2.2\HotelGuide.Business.csproj.CoreCompileInputs.cache
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\obj\Debug\netcoreapp2.2\HotelGuide.Business.AssemblyInfoInputs.cache
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\obj\Debug\netcoreapp2.2\HotelGuide.Business.AssemblyInfo.cs
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\obj\Debug\netcoreapp2.2\HotelGuide.Business.csproj.CopyComplete
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\obj\Debug\netcoreapp2.2\HotelGuide.Business.dll
+C:\Users\MyAsus\Documents\GitHub\HotelGuide\HotelGuide.Business\obj\Debug\netcoreapp2.2\HotelGuide.Business.pdb

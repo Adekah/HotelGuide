@@ -51,6 +51,8 @@
             else
             {
 
+
+                @HttpContextAccessor.HttpContext.Session.GetString("UserSession");
                 <a class="btn btn-warning" style="width: 175px; height: 40px;" asp-controller="User" asp-action="Login">Oturum Aç</a>
            
             }
