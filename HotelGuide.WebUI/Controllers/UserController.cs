@@ -18,9 +18,13 @@ namespace HotelGuide.WebUI.Controllers
 
         public IActionResult Login()
         {
+            if (HttpContext.Session.GetInt32("UserId") == null)
+            {
+                return View();
+            }
 
-            HttpContext.Session.SetString("UserSession", "UserSessionUserSessionUserSessionUserSession");
-            return View();
+           return RedirectToAction("Index", "Hotel");
+
         }
 
 
@@ -43,6 +47,14 @@ namespace HotelGuide.WebUI.Controllers
                 return RedirectToAction("Index", "Hotel");
 
             }
+        }
+
+        public IActionResult Logout()
+        {
+
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index","Hotel");
+
         }
 
     }

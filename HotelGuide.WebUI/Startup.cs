@@ -45,7 +45,7 @@ namespace HotelGuide.WebUI
                 options.IdleTimeout = TimeSpan.FromMinutes(10);
                 options.Cookie.HttpOnly = true;
                 // Make the session cookie essential
-             
+                options.Cookie.IsEssential = true;
             });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

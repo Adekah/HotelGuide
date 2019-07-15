@@ -1,6 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Http
 @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,6 +47,7 @@
             </div>
             @if (HttpContextAccessor.HttpContext.Session.GetInt32("UserId") != null)
             {
+                <a asp-action="Logout" asp-controller="User" class="btn btn-danger" style="margin-right: 20px;">Oturumu Kapat</a>
                 <b>Hoşgeldiniz : @HttpContextAccessor.HttpContext.Session.GetString("UserName")</b>
             }
             else
@@ -54,7 +56,7 @@
 
                 @HttpContextAccessor.HttpContext.Session.GetString("UserSession");
                 <a class="btn btn-warning" style="width: 175px; height: 40px;" asp-controller="User" asp-action="Login">Oturum Aç</a>
-           
+
             }
 
 

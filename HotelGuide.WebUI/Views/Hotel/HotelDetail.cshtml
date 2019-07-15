@@ -1,4 +1,8 @@
-﻿
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+
+
 @{
     ViewData["Title"] = "HotelDetail";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -64,16 +68,36 @@
                                 {
                                     <span class="fa fa-star checked"></span>
 
-                                } <hr/>
+                                } <hr />
                             </p>
                         </div>
                     }
                 }
-             
+                @if (HttpContextAccessor.HttpContext.Session.GetInt32("UserId") != null)
+                {
+            <form asp-action="HotelComment" asp-controller="Hotel">
+
+
                 <div>
-                    <a type="button" asp-controller="User" asp-action="Login" class="btn btn-primary">Yorum Yap</a>
+                    <textarea placeholder="Yorumunuz" name="hotelComment"class="form-control"></textarea>
+                    Otele Verdiğim Puan :   <input type="number" name="hotelCommentScore" name="quantity" value="0" min="1" max="5">
                 </div>
-   
+                
+                <input style="visibility: hidden" name="hotelId" value="@Model.Id"/>
+                <div>
+                    <button type="submit"  class="btn btn-primary">Yorum Yap</button>
+                </div>
+
+            </form>
+                }
+                else
+                {
+                    <div>
+                        <a type="button" asp-controller="User" asp-action="Login" class="btn btn-primary">Yorum Yapailmek İçin Oturum Aç</a>
+                    </div>
+                }
+
+
 
 
 

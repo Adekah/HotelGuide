@@ -21,6 +21,12 @@ namespace HotelGuide.Business
             return repository.GetAll();
         }
 
+        public HotelComment AddHotelComment(HotelComment hotelcomment)
+        {
+            HotelRepository repository=new HotelRepository();
+            return repository.AddHotelComment(hotelcomment);
+        }
+
         public List<HotelsViewModel> GetHotelSearchResult(string searchString)
         {
             HotelRepository repository = new HotelRepository();

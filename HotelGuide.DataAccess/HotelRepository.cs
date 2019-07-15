@@ -48,11 +48,11 @@ namespace HotelGuide.DataAccess
             var context = new HotelDBContext();
 
             var balance = (from h in context.Hotel
-                join ha in context.HotelAddress on h.Id equals ha.HotelId
-                join hs in context.HotelScore on h.Id equals hs.HotelId
-                join hi in context.HotelImage on h.Id equals hi.HotelId
-                where h.Id == id
-                select new HotelsViewModel { Id = h.Id, Name = h.Name, Description = h.Description, AddressText = ha.AddressText, ScoreValue = hs.ScoreValue, ImagePath = hi.ImagePath }).SingleOrDefault();
+                           join ha in context.HotelAddress on h.Id equals ha.HotelId
+                           join hs in context.HotelScore on h.Id equals hs.HotelId
+                           join hi in context.HotelImage on h.Id equals hi.HotelId
+                           where h.Id == id
+                           select new HotelsViewModel { Id = h.Id, Name = h.Name, Description = h.Description, AddressText = ha.AddressText, ScoreValue = hs.ScoreValue, ImagePath = hi.ImagePath }).SingleOrDefault();
 
             return balance;
         }
@@ -75,7 +75,24 @@ namespace HotelGuide.DataAccess
 
         }
 
+        public HotelComment AddHotelComment(HotelComment hotelcomment)
+        {
+            var context = new HotelDBContext();
+            try
+            {
+                if (hotelcomment.Id == 0)
+                {
+                    context.HotelComment.Add(hotelcomment);
 
+                }
+                context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            return hotelcomment;
+        }
 
 
 
