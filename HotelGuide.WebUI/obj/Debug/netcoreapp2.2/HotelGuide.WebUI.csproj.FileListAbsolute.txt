@@ -62,7 +62,6 @@ C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\Razo
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
-C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\User\Login.g.cshtml.cs
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\HotelGuide.WebUI.RazorTargetAssemblyInfo.cache
@@ -71,3 +70,4 @@ C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\Hote
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\HotelGuide.WebUI.csproj.CopyComplete
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\HotelGuide.WebUI.dll
 C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\HotelGuide.WebUI.pdb
+C:\Users\MyAsus\Desktop\HotelGuide\HotelGuide.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\User\Login.g.cshtml.cs

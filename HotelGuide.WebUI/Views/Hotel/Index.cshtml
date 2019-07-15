@@ -1,7 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Hotel Page";
-
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@using Microsoft.AspNetCore.Http
 @model IEnumerable<HotelGuide.Entity.Model.HotelsViewModel>
 
 
@@ -11,13 +12,18 @@
         <input type="submit" class="btn btn-danger" style="width: 150px; margin-left: 50px;" value="Ara" />
     </div>
 
+
+
     <div>
         @if (ViewBag.SearchedHotels != null)
         {
 
+
+
+
             @if (ViewBag.SearchedHotels.Count == 0)
             {
-                <h5 class="IndexSearchH5">Maalesef aramanızla Eşleşen Otel Kaydımız bulunamadı...</h5><hr/>
+                <h5 class="IndexSearchH5">Maalesef aramanızla Eşleşen Otel Kaydımız bulunamadı...</h5><hr />
             }
             else
             {

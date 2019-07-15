@@ -1,40 +1,52 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+using HotelGuide.Business;
 using Microsoft.AspNetCore.Mvc;
+using HotelGuide.WebUI.Models;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Microsoft.AspNetCore.Session;
 
 namespace HotelGuide.WebUI.Controllers
 {
     public class UserController : Controller
     {
+
         public IActionResult Login()
         {
-            if (HttpContext.Session.GetInt32("UserId") != null)
+          
+            if (HttpContext.Session.GetString("UserName") != null)
             {
                 return RedirectToAction("Index", "Hotel");
             }
             return View();
         }
+
+
         [HttpPost]
-        public IActionResult Login(string username, string password)
+        public IActionResult Login(string userName, string password)
         {
-            var user = Business.UserBusiness.Login(username, password);
+            var user = Business.UserBusiness.Login(userName, password);
 
 
-            if (user != null)
-            {
-                HttpContext.Session.SetInt32("UserID", user.Id);
-                TempData["user"] = user.UserName;
-                return RedirectToAction("Index", "Hotel");
-            }
-            else
+            if (String.IsNullOrEmpty(user.UserName))
             {
                 ViewBag.errormessage = "Kullanıcı Adı ya da Şifre Hatalı.";
                 return View();
             }
+            else
+            {
+                HttpContext.Session.SetInt32("UserId", user.Id);
+                HttpContext.Session.SetString("UserName", user.UserName);
 
+                return RedirectToAction("Index", "Hotel");
+
+            }
         }
+
     }
 }

@@ -1,6 +1,10 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
 <html>
 <head>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - HotelGuide.WebUI</title>
@@ -15,11 +19,13 @@
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
               crossorigin="anonymous"
-              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
     </environment>
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
+
+
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -33,27 +39,29 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Hotel" asp-action="Index">Hotel</a>
                         </li>
-                      
-                       
+
+
                     </ul>
                 </div>
             </div>
-      @if (TempData["user"] == null)
-      {   
-          <a class="btn btn-warning" style=" width: 175px;height: 40px;" asp-controller="User" asp-action="Login">Oturum Aç</a>
-      }
-      else
-      {
-          <b>Hoşgeldiniz : @TempData["user"] </b>
-      }
-            
-                                      
-             
+            @if (HttpContextAccessor.HttpContext.Session.GetInt32("UserId") != null)
+            {
+                <b>Hoşgeldiniz : @HttpContextAccessor.HttpContext.Session.GetString("UserName")</b>
+            }
+            else
+            {
+
+                <a class="btn btn-warning" style="width: 175px; height: 40px;" asp-controller="User" asp-action="Login">Oturum Aç</a>
+           
+            }
+
+
+
         </nav>
 
     </header>
     <div class="container">
-        
+
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

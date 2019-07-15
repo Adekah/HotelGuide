@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using HotelGuide.Business;
 using Microsoft.AspNetCore.Mvc;
 using HotelGuide.WebUI.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Session;
 
@@ -15,6 +16,9 @@ namespace HotelGuide.WebUI.Controllers
     {
         public IActionResult Index(string searchString)
         {
+
+            //HttpContext.Session.SetString("hotel", "HotelSessionHotelSessionHotelSessionHotelSession");
+            // ViewBag.asd = "ViewbagViewbagViewbagViewbagViewbag";
             HotelBusiness business = new HotelBusiness();
 
             ViewBag.AllHotels = business.GetHotels();
